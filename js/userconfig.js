@@ -11,9 +11,9 @@ var config = {
 	east : -70.95,
 	//Mapbox access token & key for basemap
 	mapboxAccessToken :              
-            'pk.eyJ1IjoicmVtb3RlZ2VudHJpZnkiLCJhIjoiY2lnanJzMjJpMDA1dnYxbHo5MTZtdGZsYSJ9.gLE8d40zmDAtMSSZyd2h1Q',
+            'pk.eyJ1IjoicmhleXdvb2QiLCJhIjoiY2l1cmZnYXJlMDA4MDJ5cnY2azJvNmNtNCJ9.HqJZu0f7QVenQA2vtk2z5w',
     //Change to your username, insert function on cartodb, and cartodb tablename (see also /cartoDB_functions)
-	cartoDBusername : 'raphaeld',
-	cartoDBinsertfunction : 'insert_bikeways_data',
-	walkthroughWelcome: "<p>This webmap allows you to view data collected by the <a href='http://bostoncyclistsunion.org/' target='_blank'>Boston Cyclists Union</a> on biking in Boston.</p><p>It also allows you to submit input on where biking infrastructure can be improved by drawing on the map! The map is restricted to the inner core of Metro Boston, where we concentrate our advocacy.</p>"
+	cartoDBusername : 'rheywood',
+	cartoDBinsertfunction : 'insert_transitways_data',
+	walkthroughWelcome: "<p>This webmap allows you to view data collected by the New York City Department of Transportation on public transportation in NYC.</p><p>It also allows you to submit input on where transit could be improved by drawing on the map! </p>"
 };
