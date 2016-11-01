@@ -9,7 +9,7 @@ var config = {
 	//Mapbox access token & key for basemap
 	mapboxAccessToken :              
             'pk.eyJ1IjoicmhleXdvb2QiLCJhIjoiY2l1cmZnYXJlMDA4MDJ5cnY2azJvNmNtNCJ9.HqJZu0f7QVenQA2vtk2z5w',
-	style: 'mapbox://styles/rheywood/ciuskj4zn00hi2io2hkcxkjni',
+	//style: 'mapbox://styles/rheywood/ciuskj4zn00hi2io2hkcxkjni',
     //Change to your username, insert function on cartodb, and cartodb tablename (see also /cartoDB_functions)
 	cartoDBusername : 'rheywood',
 	cartoDBinsertfunction : 'insert_transitways_data',
