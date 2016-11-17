@@ -2,12 +2,7 @@
  * Central repository of options to change when forking this map!
  */
 
-var config = {
-	//Set Map Bounds & point map is centered around
-	center : [40.730610, -73.935242],
-	zoom: 9
-	//Mapbox access token & key for basemap
-	mapboxgl.accessToken = 'pk.eyJ1IjoicmhleXdvb2QiLCJhIjoiY2l1cmZnYXJlMDA4MDJ5cnY2azJvNmNtNCJ9.HqJZu0f7QVenQA2vtk2z5w';
+
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/rheywood/ciurgntoq001m2inngxiyoxm6'
